@@ -11,9 +11,34 @@ if day_of_the_week == "Friday":
     print("correct")
 else:
     print("incorrect") """
-
-time = input('what time is it?')
-if time == '9:23':
-    print('Right')
+""" test = input('How many letters in test?')
+if test == '4':
+    print('Correct')
 else:
-    print('wrong')
+    print('Incorrect')
+x = "test"
+y= x.split( )
+z = y[0]
+print(y)
+print(z) """
+""" temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+""" number = input("Number?")
+if int(number) % 2 == 0:
+    input("even")
+else:
+    input("odd") """
+
+values = [0,15,20,25]
+input(values)
+for i in values:
+    input(i)
+service = input(values)
+if service == ("bad"):
+    input("0")
