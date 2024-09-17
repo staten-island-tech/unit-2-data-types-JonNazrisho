@@ -35,10 +35,19 @@ if int(number) % 2 == 0:
 else:
     input("odd") """
 
-values = [0,15,20,25]
-input(values)
-for i in values:
-    input(i)
-service = input(values)
+""" values = [0,15,20,25]
+input(values) """
+
+initialbill = input("What is your bill?")
+service = input("How was the service?")
 if service == ("bad"):
-    input("0")
+    input("0%")
+    input(int(initialbill)) * (1 + (initialbill * "0%"))
+elif service == ("okay"):
+    input("15%")
+elif service == ("good"):
+    input("20%")
+if service == ("great"):
+    input("25%")
+""" values = [0,15,20,25]
+print(int(x)) * input(int(string)) """
