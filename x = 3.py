@@ -37,17 +37,21 @@ else:
 
 """ values = [0,15,20,25]
 input(values) """
-
+##calculator
 initialbill = input("What is your bill?")
 service = input("How was the service?")
 if service == ("bad"):
     input("0%")
-    input(int(initialbill)) * (1 + (initialbill * "0%"))
+    input(1 * (initialbill * 1))
 elif service == ("okay"):
     input("15%")
+    input(float(initialbill) * (1 + (0.01 * 15)))
+    x = round(114.99999999999999)
+    print(x)
 elif service == ("good"):
     input("20%")
-if service == ("great"):
+    input(float(initialbill) * (1 + (0.01 * 20)))
+elif service == ("great"):
     input("25%")
-""" values = [0,15,20,25]
-print(int(x)) * input(int(string)) """
+    input(float(initialbill) * (1 + (0.01 * 25)))
+
