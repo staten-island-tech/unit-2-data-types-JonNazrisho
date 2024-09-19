@@ -38,7 +38,7 @@ else:
 """ values = [0,15,20,25]
 input(values) """
 ##calculator
-initialbill = input("What is your bill?")
+""" initialbill = input("What is your bill?")
 service = input("How was the service?")
 if service == ("bad"):
     input("0%")
@@ -53,5 +53,10 @@ elif service == ("good"):
     input(float(initialbill) * (1 + (0.01 * 20)))
 elif service == ("great"):
     input("25%")
-    input(float(initialbill) * (1 + (0.01 * 25)))
+    input(float(initialbill) * (1 + (0.01 * 25))) """
 
+number = input("Pick a number")
+x = int()
+input (factors = x(float(number)))
+for x in range(100):
+    input(factors)
