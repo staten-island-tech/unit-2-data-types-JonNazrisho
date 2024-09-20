@@ -55,8 +55,12 @@ elif service == ("great"):
     input("25%")
     input(float(initialbill) * (1 + (0.01 * 25))) """
 
-number = input("Pick a number")
-x = int()
-input (factors = x(float(number)))
-for x in range(100):
-    input(factors)
+number = (input("Pick a number"))
+x = input(number)
+factors = []
+y = input(1 * (x))
+factors = (input(y))
+for i in range():
+    input(y)
+    if x % (y) == 0:
+        list (factors)
