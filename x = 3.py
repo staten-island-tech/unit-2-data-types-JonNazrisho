@@ -55,12 +55,19 @@ elif service == ("great"):
     input("25%")
     input(float(initialbill) * (1 + (0.01 * 25))) """
 
-number = (input("Pick a number"))
-x = input(number)
-factors = []
-y = input(1 * (x))
-factors = (input(y))
-for i in range():
-    input(y)
-    if x % (y) == 0:
-        list (factors)
+##Factor calculator
+""" number = (input("Pick a number"))
+for x in range(int(number)):
+    if (x) > 0  and (int(number) % x == 0):
+        input(x) """
+##GCF calculator
+number_x = (input("Pick a number"))
+for x in range(int(number_x)):
+    if (x) > 0  and (int(number_x) % x == 0):
+        input(x)
+number_y = (input("Pick a second number"))
+for y in range(int(number_y)):
+    if (y) > 0  and (int(number_y) % y == 0):
+        input(y)
+number_x == []
+number_y == []
