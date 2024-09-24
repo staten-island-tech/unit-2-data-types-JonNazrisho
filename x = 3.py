@@ -37,7 +37,7 @@ else:
 
 """ values = [0,15,20,25]
 input(values) """
-##calculator
+##tipcalculator
 """ initialbill = input("What is your bill?")
 service = input("How was the service?")
 if service == ("bad"):
@@ -69,5 +69,7 @@ number_y = (input("Pick a second number"))
 for y in range(int(number_y)):
     if (y) > 0  and (int(number_y) % y == 0):
         input(y)
-number_x == []
-number_y == []
+list([x])
+list([y])
+if x == y:
+    input(x, y)
