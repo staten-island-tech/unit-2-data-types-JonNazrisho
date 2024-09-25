@@ -69,7 +69,13 @@ number_y = (input("Pick a second number"))
 for y in range(int(number_y)):
     if (y) > 0  and (int(number_y) % y == 0):
         input(y)
-list([x])
-list([y])
-if x == y:
-    input(x, y)
+list1 = [x]
+list2 = [y]
+def largest_common_number(lists):
+    set1 = set(list1)
+    set2 = set(list2)
+    common_factor = set1.intersection(set2, set3)
+    if common_factor(x, y):
+        return max(common_factor)
+    else: 
+        return None
