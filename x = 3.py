@@ -61,21 +61,24 @@ for x in range(int(number)):
     if (x) > 0  and (int(number) % x == 0):
         input(x) """
 ##GCF calculator
+
 number_x = (input("Pick a number"))
 for x in range(int(number_x)):
     if (x) > 0  and (int(number_x) % x == 0):
-        input(x)
+        print(x)
+
 number_y = (input("Pick a second number"))
 for y in range(int(number_y)):
     if (y) > 0  and (int(number_y) % y == 0):
-        input(y)
-list1 = [x]
-list2 = [y]
-def largest_common_number(lists):
-    set1 = set(list1)
-    set2 = set(list2)
-    common_factor = set1.intersection(set2, set3)
-    if common_factor(x, y):
-        return max(common_factor)
-    else: 
-        return None
+        print(y)
+
+list1 = []
+list2 = []
+
+for i in range(2, a + 1):
+    if (x == y) and (int(number_x)) % (x, y) == 0:
+        print(x) or print(y)
+    elif (x == y) and (int(number_y)) % (x, y) == 0:
+        print(x) or print(y)
+    else:
+        print("no gcf")
