@@ -72,13 +72,10 @@ for y in range(int(number_y)):
     if (y) > 0  and (int(number_y) % y == 0):
         print(y)
 
-list1 = []
-list2 = []
-
-for i in range(2, a + 1):
-    if (x == y) and (int(number_x)) % (x, y) == 0:
-        print(x) or print(y)
-    elif (x == y) and (int(number_y)) % (x, y) == 0:
-        print(x) or print(y)
+for i in range(2, x + 1):
+    if (int(number_x)) % x == 0 and (int(number_x)) % y == 0:
+        print(x) 
+    elif (int(number_y)) % x == 0 and (int(number_y)) % y == 0:
+        print(x)
     else:
         print("no gcf")
