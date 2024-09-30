@@ -28,7 +28,7 @@ elif temp == 68:
     print('perfect')
 else:
     print('cold') """
-
+##odd or even number
 """ number = input("Number?")
 if int(number) % 2 == 0:
     input("even")
@@ -62,20 +62,11 @@ for x in range(int(number)):
         input(x) """
 ##GCF calculator
 
-number_x = (input("Pick a number"))
-for x in range(int(number_x)):
-    if (x) > 0  and (int(number_x) % x == 0):
-        print(x)
+number_x = int(input("Pick a number"))
+number_y = int(input("Pick a second number"))
+list_i = []
+for i in range(2, min(int(number_y), int(number_x)) + 1):
+    if ((int(number_x)) % i == 0) and ((int(number_y)) % i == 0):
+        list_i.append(i)
 
-number_y = (input("Pick a second number"))
-for y in range(int(number_y)):
-    if (y) > 0  and (int(number_y) % y == 0):
-        print(y)
-
-for i in range(2, x + 1):
-    if (int(number_x)) % x == 0 and (int(number_x)) % y == 0:
-        print(x) 
-    elif (int(number_y)) % x == 0 and (int(number_y)) % y == 0:
-        print(x)
-    else:
-        print("no gcf")
+print(max(list_i))
